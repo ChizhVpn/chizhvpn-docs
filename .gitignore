@@ -1,0 +1,43 @@
+.git/
+.venv/
+__pycache__/
+*.pyc
+.env
+shared/*.env
+archive/
+releases/
+current*
+bot.db
+
+# backups / temp
+*.bak*
+*.save
+*.disabled
+*.backup*
+
+# local env
+.env.local
+**/.env.local
+
+# .gitignore (фрагмент)
+
+.env
+.env.*
+*.env
+*.env.*
+.env.local
+alembic/.env.local
+
+.venv/
+.venv*/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+node_modules/
+dist/
+build/
+
+local_snapshot*.zip
+docs/_local_snapshot*/
+
+
